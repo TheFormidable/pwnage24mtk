@@ -2,7 +2,7 @@
 """
 Verify an MTK part_hdr_t image with CERT1/CERT2.
 
-This mirrors the sec_img_auth_init/sec_img_auth path from export-for-ai_libsec:
+
   * parse part_hdr_t image, CERT1, CERT2
   * verify CERT1 and CERT2 RSA-PSS signatures
   * compare CERT2 image-header hash and image hash
