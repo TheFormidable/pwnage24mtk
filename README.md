@@ -2,6 +2,8 @@
 Cert exploit for MTK devices.There is a logic flaw in MTK cert verification process.Similar to CVE-2023-20696.
 May be patched at June 
 
+There are some issues about architecture detect.Need to be fixed when I am free.Or anyone can make a pull request.
+
 The date we discovered it is about one year ago(however i did not write a poc because of my lazy attitude.The poc was written at <img width="168" height="37" alt="image" src="https://github.com/user-attachments/assets/5bf68bc4-4a42-47ee-83c3-ef7d90b0314e" />
 
 Littlenine, MlgmXyysd, and Sherrin are not only rumor mongers but also opportunistic thieves. They took files that we inadvertently leaked, then went around claiming they had discovered those findings themselves. To make matters worse, they turned around and accused me of being the thief. Now they’re planning to capitalize on these—or similar—vulnerabilities by offering paid services.
