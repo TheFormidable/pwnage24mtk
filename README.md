@@ -2,6 +2,13 @@
 Cert exploit for MTK devices.There is a logic flaw in MTK cert verification process.Similar to CVE-2023-20696.
 May be patched at June 
 
+# Disclaimer
+This project is only used for researching.
+Make sure you get authorized before you use it.
+Not allowed for illegal use.
+It is not allowed to use this exploit to provide paid services.
+
+
 For mtk devices,preloader verifies bl2_ext/lk/atf and then jumps to it.
 
 These images is signed with ASN.1 certs.
