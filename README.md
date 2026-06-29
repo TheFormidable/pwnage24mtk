@@ -37,6 +37,12 @@ Then we can modify the image content.
 
 So we gain EL3 control.
 
+You need to patch BL2_EXT to remove the vefification of lk or atf.
+
+And then patch LK to remove the verification of lk_main_dtb(otherwise it will crash)
+
+And you need to patch LK to remove all bootloader locks including set_lock_state to avoid locking back or some crashes.
+
 
 
 # Usage:
