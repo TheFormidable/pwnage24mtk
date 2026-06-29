@@ -2,7 +2,11 @@
 Cert exploit for MTK devices.There is a logic flaw in MTK cert verification process.Similar to CVE-2023-20696.
 May be patched at June 
 
-Littlenine, MlgmXyysd, and Sherrin are rumor spreaders and thieves. They used files we leaked and then went around claiming they discovered them themselves. And on top of that, they accused me of being a thief. They also plan to use these or similar vulnerabilities to offer paid services. Since the last GBL vulnerability overlapped with theirs, I reached out to discuss it with them, but I ended up being baselessly accused and slandered. We have other vulnerability plans too, but given all this, we’ll have to think about whether to keep releasing them.
+Littlenine, MlgmXyysd, and Sherrin are not only rumor mongers but also opportunistic thieves. They took files that we inadvertently leaked, then went around claiming they had discovered those findings themselves. To make matters worse, they turned around and accused me of being the thief. Now they’re planning to capitalize on these—or similar—vulnerabilities by offering paid services.
+
+When our recent GBL vulnerability overlapped with theirs, I reached out in good faith to discuss it, hoping to clarify the situation. Instead of a constructive conversation, I was met with baseless accusations and outright slander.
+
+We do have other vulnerability research in the pipeline, but given this entire experience, we’re seriously reconsidering whether to continue publishing them at all.
 
 <img width="872" height="1920" alt="64a10fe17f15045f8ff9b3acb5371c49_720" src="https://github.com/user-attachments/assets/a999e602-f59a-4e8f-8dc5-4de172e259d7" />
 <img width="872" height="1920" alt="9685bb71a65b19c68a3888e042252692_720" src="https://github.com/user-attachments/assets/fad8b0c7-1642-4b4d-b7f5-d232bd30e375" />
@@ -75,4 +79,10 @@ Then insert the new signed image back
 
 python build-part-img.py replace [original image file] --name [the single image name you want to insert back] -- file [the new signed single image]
 
+# Example:
+
+<img width="1916" height="850" alt="4c8558aaea5e8d939ba978d6b10be14d" src="https://github.com/user-attachments/assets/eff7645a-9da2-4dfc-8f29-3ec9a727e208" />
+<img width="1665" height="462" alt="17fe099c27560ec4b0dd0ab1540e1442" src="https://github.com/user-attachments/assets/c673c332-848f-436e-a024-1676982ceced" />
+<img width="1002" height="971" alt="b56f0026951f2c58612b315b44423437" src="https://github.com/user-attachments/assets/577449d1-384b-4a47-8509-aebb70bab04e" />
+<img width="1325" height="233" alt="image" src="https://github.com/user-attachments/assets/68871910-a551-4a53-b64f-b0d0e2312ff3" />
 
