@@ -139,5 +139,13 @@ CERT2 new dsize=1072, padded=1072, align=16
 Write complete: /home/vboxuser/Desktop/pwnage24mtk-main/out/bl2_ext.bin.signed
 vboxuser@UBUNTU:~/Desktop/pwnage24mtk-main$ python build-part-img.py replace lk.img --name bl2_ext --file /home/vboxuser/Desktop/pwnage24mtk-main/out/bl2_ext.bin.signed
 wrote rebuilt image to lk.img.new
-vboxuser@UBUNTU:~/Desktop/pwnage24mtk-main$ 
+vboxuser@UBUNTU:~/Desktop/pwnage24mtk-main$ python parse-part-img.py lk.img.new --split -o out
+[DEBUG] Start Split Images --- lk.img.new
+out/lk.bin: offset=0x0 size=1005824 image=lk load_addr=4294967295 (0xffffffff) [fake addr]
+out/bl2_ext.bin: offset=0xf5900 size=961888 image=bl2_ext load_addr=4294967295 (0xffffffff) [fake addr]
+out/aee.bin: offset=0x1e0660 size=964208 image=aee load_addr=4294967295 (0xffffffff) [fake addr]
+out/lk_main_dtb.bin: offset=0x2cbcd0 size=400000 image=lk_main_dtb load_addr=4294967295 (0xffffffff) [fake addr]
+out/lk_dtbo.bin: offset=0x32d750 size=88976 image=lk_dtbo load_addr=4294967295 (0xffffffff) [fake addr]
+wrote 5 sub-image(s) to out
+
 ```
